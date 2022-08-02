@@ -1,0 +1,62 @@
+body {
+  background-image: url("lim-background.jpg");
+  background-size: cover;
+  font-family: "Poppins"
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 50px;
+}
+
+header {
+  text-align: center;
+  color: lime;
+}
+
+.logo {
+  width: 180px;
+}
+
+nav {
+  background-color: lime;
+  text-align: center;
+  padding: 7px;
+}
+
+.monopattino {
+  color: white;
+  margin-top: 20px;
+}
+
+.monopattino-name {
+  display: inline;
+}
+
+.monopattino-location {
+  margin: 5px 0;
+}
+
+.charge-medium {
+  width: 40%;
+  height: 30px;
+  background-color: goldenrod;
+  border-radius: 7px;
+}
+
+.charge-high {
+  width: 70%;
+  height: 30px;
+  background-color: limegreen;
+  border-radius: 7px;
+}
+
+.charge-low {
+  width: 10%;
+  height: 30px;
+  background-color: crimson;
+  border-radius: 7px;
+}
